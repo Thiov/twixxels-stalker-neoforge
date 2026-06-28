@@ -1,0 +1,25 @@
+# gradle
+.gradle/
+build/
+out/
+classes/
+
+# neoforge moddev / runs
+run/
+runs/
+*.log
+
+# eclipse / idea / vscode
+*.launch
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+.settings/
+.classpath
+.project
+bin/
+
+# macOS
+.DS_Store

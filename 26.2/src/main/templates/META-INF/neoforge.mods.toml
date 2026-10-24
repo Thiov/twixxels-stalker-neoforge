@@ -1,0 +1,25 @@
+license="${mod_license}"
+issueTrackerURL="https://github.com/Thiov/twixxels-stalker-neoforge/issues"
+
+[[mods]]
+modId="${mod_id}"
+version="${mod_version}"
+displayName="${mod_name}"
+authors="MrPerkasc, Twixxel_lesgo"
+description='''
+Unofficial NeoForge port of Twixxel's Stalker for Minecraft 26.2. Adds The Stalker, a silent hunter that pursues you when you're not looking. Original mod by MrPerkasc (idea by Twixxel_lesgo, designs by LCrandom); this NeoForge port is maintained by Thiov and is not affiliated with or endorsed by the original authors.
+'''
+
+[[dependencies.${mod_id}]]
+    modId="neoforge"
+    type="required"
+    versionRange="${neo_version_range}"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.${mod_id}]]
+    modId="minecraft"
+    type="required"
+    versionRange="${minecraft_version_range}"
+    ordering="NONE"
+    side="BOTH"
